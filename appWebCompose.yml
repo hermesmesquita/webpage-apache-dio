@@ -1,0 +1,8 @@
+services:
+  apache:
+    image: httpd:latest
+    container_name: meu-app-apache
+    ports:
+      -'80:80'
+    volumes:
+      - ./website:/usr/local/apache2/htdocscd
