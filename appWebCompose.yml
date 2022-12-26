@@ -5,4 +5,4 @@ services:
     ports:
       -'80:80'
     volumes:
-      - ./website:/usr/local/apache2/htdocscd
+      - ./website:/usr/local/apache2/htdocs
